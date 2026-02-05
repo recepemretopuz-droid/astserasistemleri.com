@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity=".90"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="#0b1020"/>
+  <circle cx="320" cy="140" r="260" fill="#38bdf8" fill-opacity=".12"/>
+  <circle cx="1340" cy="220" r="320" fill="#f59e0b" fill-opacity=".12"/>
+  <rect x="120" y="170" width="1360" height="560" rx="44" fill="url(#g)" fill-opacity=".18" stroke="rgba(255,255,255,.20)"/>
+  <rect x="200" y="260" width="1200" height="380" rx="36" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)" filter="url(#s)"/>
+  <text x="280" y="390" fill="rgba(255,255,255,.92)" font-family="Arial, sans-serif" font-size="64" font-weight="700">Spor Salonu Zemin</text>
+  <text x="280" y="470" fill="rgba(255,255,255,.72)" font-family="Arial, sans-serif" font-size="34">Okullar için zemin • Epoksi • Çevreleme</text>
+  <text x="280" y="560" fill="rgba(255,255,255,.55)" font-family="Arial, sans-serif" font-size="26">Görseli değiştirmek için: assets/img/hero-spor.svg</text>
+  <path d="M260 620h1080" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+  <g transform="translate(280,655)" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="3">
+    <rect x="0" y="0" width="80" height="80" rx="18"/>
+    <path d="M18 54l18-18 14 14 16-20 14 24" />
+    <circle cx="56" cy="30" r="8"/>
+  </g>
+</svg>

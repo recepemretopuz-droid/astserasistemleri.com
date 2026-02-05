@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="44" viewBox="0 0 220 44" role="img" aria-label="ST Seracılık ve Kurulum Hizmetleri">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fd3ff"/>
+      <stop offset="1" stop-color="#2f7cff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(0,2)">
+    <!-- Base -->
+    <path d="M6 34h46" stroke="url(#g1)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Greenhouse outline -->
+    <path d="M8 33V19c0-2 1-4 3-6l10-9c2-2 5-2 7 0l10 9c2 2 3 4 3 6v14" fill="none" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Inner grid -->
+    <path d="M20 10v23M34 10v23M8 21h40" stroke="#cfefff" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <!-- ST monogram -->
+    <text x="20" y="30" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" font-weight="800" fill="#eaf6ff">ST</text>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(58,3)">
+    <text x="0" y="18" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="800" fill="#eaf6ff">ST Seracılık</text>
+    <text x="0" y="34" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12" font-weight="600" fill="#a9dfff">Kurulum Hizmetleri</text>
+  </g>
+</svg>
